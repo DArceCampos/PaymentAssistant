@@ -26,7 +26,7 @@
 ## Capturas de Formatos como Referencia
 
 ### Payment Schedules
-![Payment Features per Plan](imagenes/Payment Schedules.jpg)
+![Payment Features per Plan](imagenes/Payment_Schedules.jpg)
 
 
 ### Payment Features per Plan
