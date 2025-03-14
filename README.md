@@ -26,18 +26,29 @@
 ## Capturas de Formatos como Referencia
 
 ### Payment Schedules
-![Payment Features per Plan](imagenes/Payment_Schedules.jpg)
+![Payment Schedules](imagenes/Payment_Schedules.jpg)
 
 
 ### Payment Features per Plan
+![Payment Features per Plan](imagenes/Payment_Features_per_Plan.jpg)
 
 
 ### Payment Login
+![Payment Login](imagenes/Payment_Login.jpg)
+
 
 ### Payment Address
+![Payment Adress](imagenes/Payment_Address.jpg)
+
 
 ### Payment Currency/Exchange Rate
+![Payment Currency](imagenes/Payment_Currency.jpg)
+
 
 ### Payment Transaction
+![Payment Transaction](imagenes/Payment_Transaction.jpg)
+
 
 ### Payment Payment
+![Payment Payment](imagenes/Payment_Payment.jpg)
+
