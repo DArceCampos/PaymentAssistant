@@ -81,7 +81,7 @@
 [Ver llenado de la base de datos](Caso1-Entregable2/Llenado_base%20de%20datos_paymentAssistant.sql)
 
 ## Link Script de Consultas de la Base de Datos
-[Ver consultas de la base de datos](Caso1-Entregable2/consultas%20de%20la%20base%20de%20datos_paymentAssistant.sql)
+[Ver consultas de la base de datos](Caso1-Entregable2/consultas_paymentAssistant.sql)
 
 ---
 
