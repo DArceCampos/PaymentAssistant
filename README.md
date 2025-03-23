@@ -54,6 +54,7 @@
 
 # Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
 ### Script de consulta
+```sql
 SELECT 
     CONCAT(payment_users.firstname, ' ', payment_users.lastname) AS nombre_completo,
     payment_users.email,
@@ -74,6 +75,7 @@ GROUP BY
     payment_users.userid, payment_users.firstname, payment_users.lastname, payment_users.email, payment_countries.name 
 ORDER BY 
     total_pagado_crc DESC;
+```
 
 ### Datatable resultante
 
@@ -112,6 +114,7 @@ ORDER BY
 
 #  personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
 ### Script de consulta
+```sql
 SELECT 
     CONCAT(payment_users.firstname, ' ', payment_users.lastname) AS nombre_completo,
     payment_users.email,
@@ -123,7 +126,7 @@ WHERE
     AND DATEDIFF(payment_planperson.expirationdate, CURDATE()) < 15 
 ORDER BY 
     dias_restantes ASC;
-    
+```
 ### Datatable resultante
 | nombre_completo         | email                  | dias_restantes |
 |-------------------------|------------------------|----------------|
@@ -157,6 +160,7 @@ ORDER BY
 
 # top 15 de usuarios que más uso le dan a la aplicación
 ### Script de consulta
+```sql
 SELECT 
     payment_users.userid, 
     CONCAT(payment_users.firstname, ' ', payment_users.lastname) AS fullname, 
@@ -170,7 +174,7 @@ GROUP BY
 ORDER BY 
     login_count DESC
 LIMIT 15;
-
+```
 ### Datatable resultante
 | userid | fullname             | login_count |
 |--------|----------------------|-------------|
@@ -192,6 +196,7 @@ LIMIT 15;
 
 #  top 15 que menos uso le dan a la aplicación 
 ### Script de consulta
+```sql
 SELECT 
     payment_users.userid, 
     CONCAT(payment_users.firstname, ' ', payment_users.lastname) AS fullname, 
@@ -206,7 +211,7 @@ GROUP BY
 ORDER BY 
     login_count ASC
 LIMIT 15;  
-
+```
 ### Datatable resultante
 | userid | fullname             | login_count |
 |--------|----------------------|-------------|
@@ -230,6 +235,7 @@ LIMIT 15;
 # determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
 
 ### Script de consulta
+```sql
 SELECT 
     payment_humanAIinteractions.feedback AS tipo_error, 
     COUNT(*) AS ocurrencias
@@ -240,7 +246,7 @@ GROUP BY
     payment_humanAIinteractions.feedback 
 ORDER BY 
     ocurrencias DESC;
-
+```
 
 ### Datatable resultante
 | tipo_error              | ocurrencias |
