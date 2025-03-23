@@ -87,7 +87,7 @@
 
 ## DataTable Consulta 4.1
 
-#### Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
+#### Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy (20+)
 ### Script de consulta
 ```sql
 SELECT 
@@ -151,7 +151,7 @@ ORDER BY
 ## DataTable Consulta 4.2
 
 #### Personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
-### Script de consulta
+### Script de consulta  (13+)
 ```sql
 SELECT 
     CONCAT(payment_users.firstname, ' ', payment_users.lastname) AS nombre_completo,
@@ -199,8 +199,8 @@ ORDER BY
 
 ## DataTable Consulta 4.3.1
 
-#### Top 15 de usuarios que más uso le dan a la aplicación
-### Script de consulta
+#### Top 15 de usuarios que más uso le dan a la aplicación  
+### Script de consulta (15)
 ```sql
 SELECT 
     payment_users.userid, 
@@ -239,7 +239,7 @@ LIMIT 15;
 ## DataTable Consulta 4.3.2
 
 #### Top 15 de usuarios que menos uso le dan a la aplicación 
-### Script de consulta
+### Script de consulta (15)
 ```sql
 SELECT 
     payment_users.userid, 
@@ -279,7 +279,7 @@ LIMIT 15;
 ## DataTable Consulta 4.4
 
 #### Determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
-### Script de consulta
+### Script de consulta (30+)
 ```sql
 SELECT 
     payment_humanAIinteractions.feedback AS tipo_error, 
