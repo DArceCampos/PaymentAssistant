@@ -8,11 +8,11 @@
    - [Link Script de Creación de la Base de Datos](#link-script-de-creación-de-la-base-de-datos)
    - [Link Script de Llenado de la Base de Datos](#link-script-de-llenado-de-la-base-de-datos)
    - [Link Script de Consultas de la Base de Datos](#link-script-de-consultas-de-la-base-de-datos)
-   - [DataTable Consulta 4.1](datatable-consulta-4.1)
-   - [DataTable Consulta 4.2](datatable-consulta-4.2)
-   - [DataTable Consulta 4.3.1](datatable-consulta-4.3.1)
-   - [DataTable Consulta 4.3.2](datatable-consulta-4.3.2)
-   - [DataTable Consulta 4.4](datatable-consulta-4.4)
+   - [DataTable Consulta 4.1](#datatable-consulta-41)
+   - [DataTable Consulta 4.2](#datatable-consulta-42)
+   - [DataTable Consulta 4.3.1](#datatable-consulta-431)
+   - [DataTable Consulta 4.3.2](#datatable-consulta-432)
+   - [DataTable Consulta 4.4](#datatable-consulta-44)
 
 
 
@@ -87,7 +87,7 @@
 
 ## DataTable Consulta 4.1
 
-### Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
+#### Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
 ### Script de consulta
 ```sql
 SELECT 
@@ -150,7 +150,7 @@ ORDER BY
 
 ## DataTable Consulta 4.2
 
-### Personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
+#### Personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
 ### Script de consulta
 ```sql
 SELECT 
@@ -199,7 +199,7 @@ ORDER BY
 
 ## DataTable Consulta 4.3.1
 
-### Top 15 de usuarios que más uso le dan a la aplicación
+#### Top 15 de usuarios que más uso le dan a la aplicación
 ### Script de consulta
 ```sql
 SELECT 
@@ -238,7 +238,7 @@ LIMIT 15;
 
 ## DataTable Consulta 4.3.2
 
-### Top 15 que menos uso le dan a la aplicación 
+#### Top 15 que menos uso le dan a la aplicación 
 ### Script de consulta
 ```sql
 SELECT 
@@ -278,7 +278,7 @@ LIMIT 15;
 
 ## DataTable Consulta 4.4
 
-### Determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
+#### Determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
 ### Script de consulta
 ```sql
 SELECT 
