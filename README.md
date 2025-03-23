@@ -82,6 +82,7 @@
 
 ## Link Script de Consultas de la Base de Datos
 [Ver consultas de la base de datos](Caso1-Entregable2/consultas%20de%20la%20base%20de%20datos_paymentAssistant.sql)
+
 ---
 
 ## DataTable Consulta 4.1
