@@ -257,3 +257,7 @@ ORDER BY
 | input inválido          | 6           |
 | contexto incorrecto     | 4           |
 
+
+[Ver creación de la base de datos](Caso1-Entregable2/paymentAssistant.sql)
+[Ver llenado de la base de datos](Caso1-Entregable2/Llenado_base%20de%20datos_paymentAssistant.sql)
+[Ver consultas de la base de datos](Caso1-Entregable2/consultas_paymentAssistant.sql)
