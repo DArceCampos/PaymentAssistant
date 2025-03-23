@@ -77,7 +77,7 @@
 ## Link Script de Creación de la Base de Datos
 [Ver creación de la base de datos](Caso1-Entregable2/paymentAssistant.sql)
 
-## Link Script de LLenado de la Base de Datos
+## Link Script de Llenado de la Base de Datos
 [Ver llenado de la base de datos](Caso1-Entregable2/Llenado_base%20de%20datos_paymentAssistant.sql)
 
 ## Link Script de Consultas de la Base de Datos
