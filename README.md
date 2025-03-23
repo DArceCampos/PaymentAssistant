@@ -238,7 +238,7 @@ LIMIT 15;
 
 ## DataTable Consulta 4.3.2
 
-#### Top 15 que menos uso le dan a la aplicación 
+#### Top 15 de usuarios que menos uso le dan a la aplicación 
 ### Script de consulta
 ```sql
 SELECT 
