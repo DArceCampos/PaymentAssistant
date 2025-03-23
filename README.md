@@ -1,11 +1,30 @@
-# Integrantes:
 
+# 📌 Índice
+1. [Integrantes](#integrantes)
+2. [Primer Entregable](#primer-entregable)
+   - [Listado de Entidades](#listado-de-entidades).
+   - [Capturas de Formtato como Referencia](#capturas-de-formato-como-referencia)
+3. [Segundo Entregable](#segundo-entregable)
+   - [Link Script de Creación de la Base de Datos](#link-script-de-creación-de-la-base-de-datos).
+   - [Link Script de Llenado de la Base de Datos](#link-script-de-llenado-de-la-base-de-datos).
+   - [Link Script de Consultas de la Base de Datos](#link-script-de-consultas-de-la-base-de-datos).
+   - [DataTable Consulta 4.1](datatable-consulta-4.1).
+   - [DataTable Consulta 4.2](datatable-consulta-4.2).
+   - [DataTable Consulta 4.3.1](datatable-consulta-4.3.1).
+   - [DataTable Consulta 4.3.2](datatable-consulta-4.3.2).
+   - [DataTable Consulta 4.4](datatable-consulta-4.4).
+
+
+
+
+# Integrantes:
 - **Daniel Arce Campos** - Carnet: 2024174489
 - **Natalia Orozco Delgado** - Carnet: 2024099161
 
 ---
+# Primer entregable
 
-# Listado de Entidades
+## Listado de Entidades
 
 - **Usuarios**
 - **Email**
@@ -52,7 +71,22 @@
 ### Transacciones Bancarias
 ![Payment Payment](imagenes/Payment_Payment.jpg)
 
-# Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
+---
+# Segundo entregable
+
+##Link Script de Creación de la Base de Datos
+[Ver creación de la base de datos](Caso1-Entregable2/paymentAssistant.sql)
+
+##Link Script de LLenado de la Base de Datos
+[Ver llenado de la base de datos](Caso1-Entregable2/Llenado_base%20de%20datos_paymentAssistant.sql)
+
+##Link Script de Consultas de la Base de Datos
+[Ver consultas de la base de datos](Caso1-Entregable2/consultas_paymentAssistant.sql)
+---
+
+##DataTable Consulta 4.1
+
+### Usuarios de la plataforma que esten activos con su nombre completo, email, país de procedencia, y el total de cuánto han pagado en subscripciones desde el 2024 hasta el día de hoy
 ### Script de consulta
 ```sql
 SELECT 
@@ -112,7 +146,9 @@ ORDER BY
 | Nombre11 Apellido11     | usuario11@gmail.com    | Costa Rica    | 1689             |
 | Nombre29 Apellido29     | usuario29@gmail.com    | Costa Rica    | 1644             |
 
-#  personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
+##DataTable Consulta 4.2
+
+###Personas con su nombre completo e email, los cuales le queden menos de 15 días para tener que volver a pagar una nueva subscripción
 ### Script de consulta
 ```sql
 SELECT 
@@ -127,6 +163,7 @@ WHERE
 ORDER BY 
     dias_restantes ASC;
 ```
+
 ### Datatable resultante
 | nombre_completo         | email                  | dias_restantes |
 |-------------------------|------------------------|----------------|
@@ -156,9 +193,10 @@ ORDER BY
 | Nombre30 Apellido30     | usuario30@gmail.com    | 14             |
 | Nombre6 Apellido6       | usuario6@gmail.com     | 14             |
 | Nombre2 Apellido2       | usuario2@gmail.com     | 14             |
+---
 
-
-# top 15 de usuarios que más uso le dan a la aplicación
+##DataTable Consulta 4.3.1
+### Top 15 de usuarios que más uso le dan a la aplicación
 ### Script de consulta
 ```sql
 SELECT 
@@ -193,8 +231,11 @@ LIMIT 15;
 | 28     | Nombre28 Apellido28  | 3           |
 | 17     | Nombre17 Apellido17  | 3           |
 | 2      | Nombre2 Apellido2    | 3           |
+---
 
-#  top 15 que menos uso le dan a la aplicación 
+##DataTable Consulta 4.3.2
+
+### Top 15 que menos uso le dan a la aplicación 
 ### Script de consulta
 ```sql
 SELECT 
@@ -230,10 +271,11 @@ LIMIT 15;
 | 17     | Nombre17 Apellido17  | 3           |
 | 12     | Nombre12 Apellido12  | 3           |
 | 2      | Nombre2 Apellido2    | 3           |
+---
 
+##DataTable Consulta 4.4
 
-# determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
-
+###Determinar cuáles son los análisis donde más está fallando la AI, encontrar los casos, situaciones, interpretaciones, halucinaciones o errores donde el usuario está teniendo más problemas en hacer que la AI determine correctamente lo que se desea hacer, rankeando cada problema de mayor a menor cantidad de ocurrencias entre un rango de fechas (1 mes)
 ### Script de consulta
 ```sql
 SELECT 
@@ -258,6 +300,3 @@ ORDER BY
 | contexto incorrecto     | 4           |
 
 
-[Ver creación de la base de datos](Caso1-Entregable2/paymentAssistant.sql)
-[Ver llenado de la base de datos](Caso1-Entregable2/Llenado_base%20de%20datos_paymentAssistant.sql)
-[Ver consultas de la base de datos](Caso1-Entregable2/consultas_paymentAssistant.sql)
