@@ -2,9 +2,11 @@
 # 📌 Índice
 1. [Integrantes](#integrantes)
 2. [Primer Entregable](#primer-entregable)
-   - [Listado de Entidades Actualizado](#listado-de-entidades-actualizado)
+   - [Listado de Entidades](#listado-de-entidades)
    - [Capturas de Formatos como Referencia](#capturas-de-formatos-como-referencia)
 3. [Segundo Entregable](#segundo-entregable)
+   - [Listado de Entidades Actualizado](#listado-de-entidades-actualizado)
+   - [Capturas de Formatos como Referencia Actualizado](#capturas-de-formatos-como-referencia-actualizado)
    - [Link Script de Creación de la Base de Datos](#link-script-de-creación-de-la-base-de-datos)
    - [Link Script de Llenado de la Base de Datos](#link-script-de-llenado-de-la-base-de-datos)
    - [Link Script de Consultas de la Base de Datos](#link-script-de-consultas-de-la-base-de-datos)
@@ -24,7 +26,7 @@
 ---
 # Primer entregable
 
-## Listado de Entidades Actualizado
+## Listado de Entidades
 
 - **Usuarios**
 - **Email**
@@ -74,6 +76,59 @@
 ---
 # Segundo entregable
 
+## Listado de Entidades
+
+- **Usuarios**
+- **Email**
+- **Dirección**
+- **Empresas**
+- **Roles**
+- **Servicios**
+- **Métodos de Pago**
+- **Horarios**
+- **Subscripciones**
+- **Idiomas**
+- **Países**
+- **Inicios de Sesión**
+- **Transacciones Bancarias**
+- **IBM request**
+- **IBM response**
+
+
+---
+
+## Capturas de Formatos como Referencia Actualizado
+
+### Horario
+![Payment Schedules](imagenes/Payment_Schedules.jpg)
+
+
+### Planes
+![Payment Features per Plan](imagenes/Payment_Features_per_Plan.jpg)
+
+
+### Inicio sesión
+![Payment Login](imagenes/Payment_Login.jpg)
+
+
+### Dirección
+![Payment Adress](imagenes/Payment_Address.jpg)
+
+
+### Moneda
+![Payment Currency](imagenes/Payment_Currency.jpg)
+
+
+### Métodos de pago
+![Payment Transaction](imagenes/Payment_Transaction.jpg)
+
+
+### Transacciones Bancarias
+![Payment Payment](imagenes/Payment_Payment.jpg)
+
+
+
+---
 ## Link Script de Creación de la Base de Datos
 [Ver creación de la base de datos](Caso1-Entregable2/paymentAssistant.sql)
 
