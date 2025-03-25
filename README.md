@@ -2,7 +2,7 @@
 # 📌 Índice
 1. [Integrantes](#integrantes)
 2. [Primer Entregable](#primer-entregable)
-   - [Listado de Entidades](#listado-de-entidades)
+   - [Listado de Entidades Actualizado](#listado-de-entidades-actualizado)
    - [Capturas de Formatos como Referencia](#capturas-de-formatos-como-referencia)
 3. [Segundo Entregable](#segundo-entregable)
    - [Link Script de Creación de la Base de Datos](#link-script-de-creación-de-la-base-de-datos)
@@ -24,7 +24,7 @@
 ---
 # Primer entregable
 
-## Listado de Entidades
+## Listado de Entidades Actualizado
 
 - **Usuarios**
 - **Email**
