@@ -76,7 +76,7 @@
 ---
 # Segundo entregable
 
-## Listado de Entidades
+## Listado de Entidades Actualizado
 
 - **Usuarios**
 - **Email**
