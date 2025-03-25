@@ -126,6 +126,14 @@
 ### Transacciones Bancarias
 ![Payment Payment](imagenes/Payment_Payment.jpg)
 
+### API: OpenAI
+![openAI](imagenes/openAI.jpg)
+
+### API: Google SpeechToText
+![speechToText](imagenes/speechToText.jpg)
+
+### API: Google TextToSpeech
+![textToSpeech](imagenes/textToSpeech.jpg)
 
 
 ---
