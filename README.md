@@ -128,7 +128,7 @@
 ### Transacciones Bancarias
 ![Payment Payment](imagenes/Payment_Payment.jpg)
 
-### API: IBM Watson Tone Analyze API
+### API: IBM Watson Tone Analyze 
 ![IBM Request](imagenes/IBM_request.jpg)
 
 ![IBM Response](imagenes/IBM_response.jpg)
