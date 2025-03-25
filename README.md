@@ -91,8 +91,10 @@
 - **Países**
 - **Inicios de Sesión**
 - **Transacciones Bancarias**
-- **IBM request**
-- **IBM response**
+- **IBM Watson Tone Analyze API**
+- **OpenAI API**
+- **Google TextToSpeech API**
+- **Google SpeechToText API**
 
 
 ---
